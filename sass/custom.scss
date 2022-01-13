@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* Primario */
+
+$primary: hsl(185, 75%, 39%);
+$secondary: hsl(229, 23%, 23%);
+$warning: hsl(227, 10%, 46%);
+
+/* Neutral */
+
+$success: hsl(0, 0%, 59%);
+$light: white;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 50vh, left 50vw top 45vh;
+}
+
+/* Imagen del perfil */
+.card_body img {
+  margin-top: calc(-48px - 5px);
+}
+
+/* Titulo */
+.card_body h1 {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+/* Palabra del titulo */
+.card_body h1 span {
+  font-weight: 400;
+}
+
+/* Texto */
+.card_body p {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+/* Linea */
+hr {
+  height: 1px;
+}
+
+/* Titulos de estadistica */
+.card_estadisticas h2 {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+/* Texto de estadistica */
+.card_estadisticas p {
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/* Borde */
+.borde {
+  border-radius: 15px;
+}
+
+/* Otro */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

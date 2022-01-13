@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Profile card component con bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/custom.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="./css/prueba.css">
+
+</head>
+
+<body class="bg-primary d-flex flex-column justify-content-center align-items-center ">
+  <!-- Contenedor -->
+  <main class="container d-flex justify-content-center">
+
+    <!-- Tarjeta -->
+    <section class="card border-0 overflow-hidden text-center borde">
+
+      <!-- Imagen superior de la tarjeta -->
+      <img src="./images/bg-pattern-card.svg" alt="Imagen_tarjeta" class="card_imagen">
+
+      <!-- Cuerpo de la tarjeta -->
+
+      <!-- Perfil -->
+      <div class="card_body">
+        <img src="./images/image-victor.jpg" alt="Foto_Perfil"
+          class="border border-5 border-light rounded-circle mb-4 bg-light">
+        <h1 class="m-0 mb-2 text-secondary">Victor Crest <span class="ms-1 text-success">26</span>
+        </h1>
+        <p class="m-0 mb-4 text-success">London</p>
+      </div>
+
+      <hr class="m-0 bg-success border-0">
+      <!-- Estadisticas -->
+      <div class="d-flex justify-content-around p-4 card_estadisticas">
+        <div>
+          <h2 class="m-0 mb-1 text-secondary">80K</h2>
+          <p class="m-0 text-success ">Followers</p>
+        </div>
+
+        <div>
+          <h2 class="m-0 mb-1 text-secondary">803K</h2>
+          <p class="m-0 text-success ">Likes</p>
+        </div>
+
+        <div>
+          <h2 class="m-0 mb-1 text-secondary">1.4K</h2>
+          <p class="m-0 text-success ">Photos</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="attribution">
+    Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Codificado por <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
+  </div>
+</body>
+
+</html>
